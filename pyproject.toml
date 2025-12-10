@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uptok"
+version = "0.1.0"
+description = "Python client for uptok API"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "4reverse", email = "info@uptok.ru"}
+]
+dependencies = [
+    "httpx>=0.24.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/4reverse/uptok-client"
+Repository = "https://github.com/4reverse/uptok-client"
